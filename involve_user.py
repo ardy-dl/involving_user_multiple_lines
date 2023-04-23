@@ -2,6 +2,7 @@
 
 # open myfriends.txt(append)
 with open("my_friends.txt", "a") as life_friends:
+    add = "yes"
     # loop to keep adding next 
     while add == "yes":
         # ask for input
@@ -9,3 +10,4 @@ with open("my_friends.txt", "a") as life_friends:
         # write the input in the file
         life_friends.write(friends)
         # ask if there's more
+        add = input("Are there more lines? ")
