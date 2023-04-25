@@ -11,3 +11,4 @@ with open("my_friends.txt", "a") as life_friends:
         life_friends.write(friends + "\n")
         # ask if there's more
         add = input("Are there more lines? ")
+    
